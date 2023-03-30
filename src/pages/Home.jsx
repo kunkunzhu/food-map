@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from "styled-components";
 import star from "../assets/star.png"
 import food from "../components/foodData"
-import { Ticker } from "../components/animations";
+import { Ticker, Wiggle } from "../components/animations";
 
 const Header = styled.h1`
     display: flex;
@@ -88,6 +88,8 @@ const CityImages = styled.div`
     right: 0;
     z-index: 1000;
     overflow: hidden;
+    animation: ${Wiggle} 125ms infinite;
+    animation-timing-function: linear; 
 `
 
 const CityImage = styled.div`
@@ -126,14 +128,13 @@ function Home() {
         let cityCode = 0;
         (cityName === "toronto") ? cityCode = 1 : cityCode = 2
         let foodImagesURLs = Object.values(food).filter(f => f.city === cityCode).map(f => f.images).flat()
-        let selectedURLs = randomSelect(foodImagesURLs, 5) 
+        let selectedURLs = randomSelect(foodImagesURLs, 3) 
         let foodImageArray = []
         selectedURLs.map((image, key) => (
             foodImageArray.push(
                 <CityImage image={image} key={key} />
             )
         ))
-        console.log(foodImageArray)
         return (
             <CityImages>
                 {foodImageArray}
