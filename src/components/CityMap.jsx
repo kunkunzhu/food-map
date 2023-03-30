@@ -66,7 +66,7 @@ export const CityMap = ({ city }) => {
     position = [43.465, -80.52]
     minZoom += 2;
   } else {
-    position = [43.72, -79.38]
+    position = [43.72, -79.4]
   }
 
   const zoom = minZoom + 0.5;

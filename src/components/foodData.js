@@ -138,43 +138,79 @@ const foods = {
         rating: 3.5,
         city: 1
     },
-    //
-    // cafeprincess: {
-    //     images: [
-
-    //     ],
-    //     name: "Café Princess",
-    //     address: "5590 Yonge St",
-    //     latlng: [43.779538383219446, -79.41587315942118],
-    //     rating: 2.5
-    // },
-    // browndonkatsu: {
-    //     images: [
-
-    //     ],
-    //     name: "Brown Donkatsu",
-    //     address: "6024 Yonge St",
-    //     latlng: [43.78959956924908, -79.41802542503804],
-    //     rating: 4.5
-    // },
-    // yogo: {
-    //     images: [
-
-    //     ],
-    //     name: "YOGO Yogurt",
-    //     address: "385 Spadina Ave",
-    //     latlng: [43.65652506144644, -79.39891842873931],
-    //     rating: 3.5
-    // },
-    // kokumi: {
-    //     images: [
-
-    //     ],
-    //     name: "Kokumi Mini Hot Pot",
-    //     address: "407 Spadina Ave",
-    //     latlng: [43.65702960349416, -79.39928320914927],
-    //     rating: 3.5
-    // },
+    cafeprincess: {
+        images: [
+            "https://i.ibb.co/nn7zfRV/IMG-6549.jpg",
+            "https://i.ibb.co/R3cTnXb/IMG-6548.jpg",
+            "https://i.ibb.co/SNPsGfV/IMG-6551.jpg"
+        ],
+        name: "Café Princess",
+        address: "5590 Yonge St",
+        latlng: [43.779538383219446, -79.41587315942118],
+        rating: 2.5
+    },
+    tensecondsyunnan: {
+        images: [
+            "https://i.ibb.co/zfNTHH6/IMG-6424.jpg",
+            "https://i.ibb.co/Stz9Z5G/EA8223-C5-6325-4-CD4-BD21-4-FB9-E75-BD2-ED.jpg",
+            "https://i.ibb.co/cxSL231/38710011-B35-A-47-F4-9-BA4-9-AEAB39-D7-CE0.jpg",
+            "https://i.ibb.co/bBcxh07/211-A6-FB3-E088-4-D6-E-B3-BC-088643-D29079.jpg"
+        ],
+        name: "Ten Seconds Yunnan Rice Noodle",
+        address: "191 Ravel Rd #101",
+        latlng: [43.791159098695005, -79.36688791057229],
+        rating: 3
+    },
+    browndonkatsu: {
+        images: [
+            "https://i.ibb.co/SQHNC8m/IMG-6576.jpg",
+            "https://i.ibb.co/Y7wmsB6/IMG-6574.jpg",
+            "https://i.ibb.co/X3RP09s/IMG-6573.jpg"
+        ],
+        name: "Brown Donkatsu",
+        address: "6024 Yonge St",
+        latlng: [43.78959956924908, -79.41802542503804],
+        rating: 4.5
+    },
+    mannat: {
+        images: [
+            "https://i.ibb.co/FwPQqh7/6-DEA0-E5-C-4962-4-FCC-9-DF7-A86-CB9-E2-C351.jpg",
+            "https://i.ibb.co/myNKBzk/8-CA2-E6-FC-5363-435-A-B17-A-2-F2-B236-D3-E5-B.jpg",
+            "https://i.ibb.co/XFvkDZd/5-F8-E5-CF1-45-DD-4760-910-D-04-B7422-B2-F2-D.jpg"
+        ],
+        name: "Mannat-Indian & Hakka Bar",
+        address: "839 College St",
+        latlng: [43.65419987930462, -79.4228623000378],
+        rating: 3.5
+    },
+    yogo: {
+        images: [
+            "https://i.ibb.co/2nbv9pS/IMG-6643.jpg",
+            "https://i.ibb.co/1XmGrNr/IMG-6625.jpg"
+        ],
+        name: "YOGO Yogurt",
+        address: "385 Spadina Ave",
+        latlng: [43.65652506144644, -79.39891842873931],
+        rating: 3.5
+    },
+    kokumi: {
+        images: [
+            "https://i.ibb.co/8Kh11yd/IMG-1099.jpg"
+        ],
+        name: "Kokumi Mini Hot Pot",
+        address: "407 Spadina Ave",
+        latlng: [43.65702960349416, -79.39928320914927],
+        rating: 3.5
+    },
+    kimchikorean: {
+        images: [
+            "https://i.ibb.co/DQ5fRKc/417-B08-CC-80-F9-4-F7-F-A273-78-A997-DE17-C5.jpg"
+        ],
+        name: "Kimchi Korea House",
+        address: "149 Dundas St W, Toronto, ON M5G 1C5",
+        latlng: [43.655394664222825, -79.38538878456133],
+        rating: 3.5
+    },
 
 
     // WATERLOO
@@ -200,16 +236,15 @@ const foods = {
         rating: 4,
         city: 2
     },
-    //
-    // rosecafe: {
-    //     images: [
-
-    //     ],
-    //     name: "Rose Cafe",
-    //     latlng: [43.44858196027331, -80.48620925942868],
-    //     address: "185 King St E",
-    //     rating: 3.5
-    // }
+    rosecafe: {
+        images: [
+            "https://instagram.fyto3-1.fna.fbcdn.net/v/t51.2885-15/337312170_3354080138198823_4264306803536639546_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fyto3-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=vlchY-vJHQEAX86SL05&edm=AOmX9WgBAAAA&ccb=7-5&ig_cache_key=MzA2NTAxODkyNDQwOTAxODU0NQ%3D%3D.2-ccb7-5&oh=00_AfA2U4RL8URnU6xndz_LfAIP_mnjItBPwd8ddFkmSTSHPQ&oe=642A1D08&_nc_sid=2be895"
+        ],
+        name: "Rose Cafe",
+        latlng: [43.44858196027331, -80.48620925942868],
+        address: "185 King St E",
+        rating: 3.5
+    }
 }
 
 export default foods

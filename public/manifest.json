@@ -3,17 +3,17 @@
   "name": "we came, we saw, we ate.",
   "icons": [
     {
-      "src": "ramen.png",
+      "src": "star.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "ramen.png",
+      "src": "star.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "ramen.png",
+      "src": "star.png",
       "type": "image/png",
       "sizes": "512x512"
     }

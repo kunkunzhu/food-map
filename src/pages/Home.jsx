@@ -90,6 +90,7 @@ const CityImages = styled.div`
     overflow: hidden;
     animation: ${Wiggle} 125ms infinite;
     animation-timing-function: linear; 
+    background: transparent;
 `
 
 const CityImage = styled.div`

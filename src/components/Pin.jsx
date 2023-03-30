@@ -9,7 +9,7 @@ const StyledTooltip = styled(Tooltip)`
   text-transform: lowercase;
   border: 2px solid black;
   padding: 10px;
-  background: var(--background)
+  background-color: var(--background); !important
 `
 
 export const Pin = ({position, handleClick, food}) => {
