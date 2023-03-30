@@ -106,7 +106,7 @@ export const CityMap = ({ city }) => {
       attributionControl={false}
       >
         <TileLayer
-        url={`https://api.mapbox.com/styles/v1/kunleidoscopic/clf762p9z00dk01p9h201suae/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia3VubGVpZG9zY29waWMiLCJhIjoiY2xmNzZwYXVuMTZydzNzbzc4OHh6ZXc5YSJ9.AMN9lXcpcRZnCcM9iQ7SVQ`}
+        url={`https://api.mapbox.com/styles/v1/mapbox/outdoors-v9/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia3VubGVpZG9zY29waWMiLCJhIjoiY2xmNzZwYXVuMTZydzNzbzc4OHh6ZXc5YSJ9.AMN9lXcpcRZnCcM9iQ7SVQ`}
         />
         <ZoomControl position="bottomleft"/>
         <AttributionControl position="bottomright" />
